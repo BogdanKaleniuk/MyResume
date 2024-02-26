@@ -1,9 +1,10 @@
 import gitHubIcon from './gitHub-black.svg';
 import "./style.css"
 
-const BtnGitHub = ({ link }) => {
+const BtnGitHub = ({ gitHubLink }) => {
+	console.log("natusnyv")
 	return (
-		<a href={link} target="_blank" rel="noreferrer" className="btn-outline">
+		<a href={gitHubLink} target="_blank" rel="noreferrer" className="btn-outline">
 			<img src={gitHubIcon} alt="" />
 			GitHub repo
 		</a>

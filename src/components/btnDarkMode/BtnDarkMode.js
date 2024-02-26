@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import {useLocalStorage} from "./../../utils/useLocalStorage"
 import detectDarkMode from '../../utils/detectDarkMode';
-
 import sun from './sun.svg';
 import moon from './moon.svg';
 import './style.css';
-import { CgLaptop } from 'react-icons/cg';
+
+
 
 const BtnDarkMode = () => {
 	console.log("knopka")

@@ -5,8 +5,10 @@ import detectDarkMode from '../../utils/detectDarkMode';
 import sun from './sun.svg';
 import moon from './moon.svg';
 import './style.css';
+import { CgLaptop } from 'react-icons/cg';
 
 const BtnDarkMode = () => {
+	console.log("knopka")
     const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode());
 
     useEffect(() => {

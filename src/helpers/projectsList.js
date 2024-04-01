@@ -50,7 +50,7 @@ const projects = [
     img: project05,
     imgBig: project05Big,
     skills: "JS, React.js, Node.js, MongoDB",
-    gitHubLink: "https://github.com/BogdanKaleniuk/ChatBack",
+    gitHubLink: "https://github.com/BogdanKaleniuk/ChatFront",
   },
   //   {
   //     title: "Other projects",

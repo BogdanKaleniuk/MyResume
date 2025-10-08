@@ -1,15 +1,24 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import { projects } from "./../helpers/projectsList";
-
+import { IoMdArrowRoundBack } from "react-icons/io";
 const Project = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const project = projects[id];
   return (
     <main className="section">
       <div className="container">
         <div className="project-details">
-          <h1 className="title-1">{project.title}</h1>
+          <div>
+            <h1 className="title-1 btnAndTitle">
+              <IoMdArrowRoundBack
+                className="btn-back-icon"
+                onClick={() => navigate("/projects")}
+              />
+              {project.title}
+            </h1>
+          </div>
 
           <img
             src={project.imgBig}
@@ -21,9 +30,7 @@ const Project = () => {
             <p>Skills: {project.skills}</p>
           </div>
 
-          {project.gitHubLink && (
-            <BtnGitHub gitHubLink={project.gitHubLink} />
-          )}
+          {project.gitHubLink && <BtnGitHub gitHubLink={project.gitHubLink} />}
         </div>
       </div>
     </main>

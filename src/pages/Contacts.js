@@ -1,3 +1,5 @@
+import { FaTelegram } from "react-icons/fa6";
+
 const Contacts = () => {
   return (
     <main className="section">
@@ -10,7 +12,7 @@ const Contacts = () => {
             <p>Kyiv, Ukraine</p>
           </li>
           <li className="content-list__item">
-            <h2 className="title-2">Telegram / Viber</h2>
+            <h2 className="title-2">Phone</h2>
             <p>
               <a href="tel:+79051234567">+38 (096) 999-84-55</a>
             </p>

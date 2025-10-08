@@ -13,6 +13,9 @@ import project04Big from "./../img/projects/WebStudio.png";
 import project05 from "./../img/projects/Chat.png";
 import project05Big from "./../img/projects/Chat.png";
 
+import project06 from "./../img/projects/Different.png";
+import project06Big from "./../img/projects/Different.png";
+
 // import project06 from "./../img/projects/06.jpg";
 // import project06Big from "./../img/projects/06-big.jpg";
 
@@ -52,12 +55,14 @@ const projects = [
     skills: "JS, React.js, Node.js, MongoDB",
     gitHubLink: "https://github.com/BogdanKaleniuk/ChatFront",
   },
-  //   {
-  //     title: "Other projects",
-  //     img: project06,
-  //     imgBig: project06Big,
-  //     skills: "React, PHP, MySql",
-  //   },
+
+  {
+    title: "Different",
+    img: project06,
+    imgBig: project06Big,
+    skills: "JS, React.js, Redux / Redux Toolkit, Tailwind CSS, API",
+    gitHubLink: "https://github.com/BogdanKaleniuk/testforteam",
+  },
 ];
 
 export { projects };

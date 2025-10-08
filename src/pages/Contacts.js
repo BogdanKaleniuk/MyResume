@@ -1,5 +1,3 @@
-import { FaTelegram } from "react-icons/fa6";
-
 const Contacts = () => {
   return (
     <main className="section">

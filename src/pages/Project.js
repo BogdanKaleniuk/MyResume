@@ -29,7 +29,14 @@ const Project = () => {
           <div className="project-details__desc">
             <p>Skills: {project.skills}</p>
           </div>
-
+          <a
+            href={project.gitHubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-demo"
+          >
+            Live Demo
+          </a>
           {project.gitHubLink && <BtnGitHub gitHubLink={project.gitHubLink} />}
         </div>
       </div>

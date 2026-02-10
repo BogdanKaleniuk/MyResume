@@ -16,9 +16,11 @@ import project05Big from "./../img/projects/Chat.png";
 import project06 from "./../img/projects/Different.png";
 import project06Big from "./../img/projects/Different.png";
 
-// import project06 from "./../img/projects/06.jpg";
-// import project06Big from "./../img/projects/06-big.jpg";
+import project07 from "./../img/projects/Kinoposhuk.png";
+import project07Big from "./../img/projects/Kinoposhuk.png";
 
+import project08 from "./../img/projects/BookGame-shop.png";
+import project08Big from "./../img/projects/BookGame-shop.png";
 const projects = [
   {
     title: "TaskPro",
@@ -26,6 +28,7 @@ const projects = [
     img: project01,
     imgBig: project01Big,
     gitHubLink: "https://github.com/resinner/TaskPro-FrontEnd-Team6",
+    gitHubUrl: "https://resinner.github.io/TaskPro-FrontEnd-Team6/",
   },
   {
     title: "Filmoteka",
@@ -33,6 +36,7 @@ const projects = [
     imgBig: project02Big,
     skills: "HTML, SASS, JS, Bootstrap-Icons, REST-API",
     gitHubLink: "https://github.com/mamamamamaa/filmoteka-team-project",
+    gitHubUrl: "https://mamamamamaa.github.io/filmoteka-team-project/",
   },
   {
     title: "IceCream",
@@ -40,6 +44,7 @@ const projects = [
     imgBig: project03Big,
     skills: "HTML, SASS, JS",
     gitHubLink: "https://palkaz.github.io/djedaj-cod-ice-next/",
+    gitHubUrl: "https://palkaz.github.io/djedaj-cod-ice-next/#how-its-made",
   },
   {
     title: "WebStudio",
@@ -47,6 +52,7 @@ const projects = [
     imgBig: project04Big,
     skills: "HTML, SASS, JS",
     gitHubLink: "https://github.com/BogdanKaleniuk/goit-markup-hw-08",
+    gitHubUrl: "https://bogdankaleniuk.github.io/goit-markup-hw-08/",
   },
   {
     title: "Chat",
@@ -54,6 +60,7 @@ const projects = [
     imgBig: project05Big,
     skills: "JS, React.js, Node.js, MongoDB",
     gitHubLink: "https://github.com/BogdanKaleniuk/ChatFront",
+    gitHubUrl: "https://jocular-shortbread-87199c.netlify.app/",
   },
 
   {
@@ -62,6 +69,24 @@ const projects = [
     imgBig: project06Big,
     skills: "JS, React.js, Redux / Redux Toolkit, Tailwind CSS, API",
     gitHubLink: "https://github.com/BogdanKaleniuk/testforteam",
+    gitHubUrl: "https://bogdankaleniuk.github.io/testforteam/",
+  },
+
+  {
+    title: "Kinoposhuk",
+    img: project07,
+    imgBig: project07Big,
+    skills: "JS, React.js, Redux / Redux Toolkit, Tailwind CSS, API",
+    gitHubLink: "https://github.com/BogdanKaleniuk/Kinoposhuk/",
+    gitHubUrl: "https://kinoposhukua.vercel.app/",
+  },
+  {
+    title: "BookGame-shop",
+    img: project08,
+    imgBig: project08Big,
+    skills: "JS, React.js, CSS, API",
+    gitHubLink: "https://github.com/BogdanKaleniuk/BookShop",
+    gitHubUrl: "https://book-game-shop.vercel.app/",
   },
 ];
 
